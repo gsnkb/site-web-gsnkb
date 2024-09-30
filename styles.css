@@ -3,18 +3,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Un gris clair pour un arrière-plan neutre */
+    background-color: #e8f5e9; /* Vert très clair pour un arrière-plan harmonieux */
 }
 
 /* Header avec le logo */
 header {
-    background-color: #1E90FF; /* Bleu vif pour le header */
+    background-color: #4CAF50; /* Vert doux pour un fond propre qui fait ressortir le logo */
     padding: 15px;
     text-align: center;
 }
 
 .logo {
     width: 150px;
+    background-color: #ffffff; /* Ajout d'un fond blanc autour du logo pour plus de lisibilité */
+    border-radius: 50%; /* Garde le logo circulaire */
 }
 
 /* Navigation */
@@ -30,7 +32,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white; /* Couleur blanche pour un bon contraste avec le bleu */
+    color: white; /* Texte blanc pour contraster avec le fond vert */
     font-weight: bold;
 }
 
@@ -91,7 +93,7 @@ h1, h2 {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #4CAF50; /* Vert pour le footer */
+    background-color: #4CAF50; /* Vert doux pour le footer */
     color: white;
     padding: 10px;
 }
